@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest&display=swap');
+
 body {
     background-color: black;
     overflow: hidden;
@@ -28,6 +31,14 @@ main .personagem .imagem {
     object-fit: cover;
 }
 
+.netflix-logo {
+    position: absolute;
+    height: 40px;
+    top: 50px;
+    left: 120px;
+    z-index: 1;
+}
+
 .conteudo {
     position: absolute;
     top: 0;
@@ -41,24 +52,24 @@ main .personagem .imagem {
 }
 
 .conteudo .logo {
-    background-image: url("../img/raibow-friends-logo.png");
+    background-image: url("../img/yuyu-hakusho-logo.png");
     background-size: cover;
     height: 100px;
-    width: 270px;
+    width: 280px;
     margin-bottom: 35px;
 }
 
 .conteudo .nome-personagem {
     color: white;
     font-size: 40px;
-    /* font-family: "Secular One"; */
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;;
+    
     margin-bottom: 20px;
 }
 
 .conteudo .descricao {
     color: white;
-    /* font-family: "Rubik"; */
+    font-family: 'Onest', sans-serif;
     line-height: 24px;
 }
 
@@ -72,7 +83,7 @@ main .personagem .imagem {
     align-items: center;
     min-height: 100vh;
     width: 180px;
-    gap: 10px;
+    gap: 20px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
