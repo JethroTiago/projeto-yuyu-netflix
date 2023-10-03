@@ -6,6 +6,14 @@ body {
     overflow: hidden;
 }
 
+.netflix-logo {
+    position: absolute;
+    height: 40px;
+    top: 50px;
+    left: 120px;
+    z-index: 3;
+}
+
 main::after {
     content: "";
     position: fixed;
@@ -31,14 +39,6 @@ main .personagem .imagem {
     object-fit: cover;
 }
 
-.netflix-logo {
-    position: absolute;
-    height: 40px;
-    top: 50px;
-    left: 120px;
-    z-index: 1;
-}
-
 .conteudo {
     position: absolute;
     top: 0;
@@ -48,7 +48,7 @@ main .personagem .imagem {
     justify-content: center;
     min-height: 100vh;
     max-width: 380px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .conteudo .logo {
