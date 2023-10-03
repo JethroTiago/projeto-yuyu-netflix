@@ -21,4 +21,4 @@ function desselecionarBotao() {
     botaoSelecionado.classList.remove("selecionado");
 }
 
-console.log("Projetyo desenvolvido por Jethro Tiago");
+console.log("Projeto desenvolvido por Jethro Tiago - 2023");
