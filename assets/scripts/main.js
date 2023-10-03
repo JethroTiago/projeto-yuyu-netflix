@@ -20,3 +20,5 @@ function desselecionarBotao() {
     const botaoSelecionado = document.querySelector(".botao.selecionado");
     botaoSelecionado.classList.remove("selecionado");
 }
+
+console.log("Projetyo desenvolvido por Jethro Tiago");
