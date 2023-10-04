@@ -32,6 +32,10 @@
         max-width: 500px;
     }
 
+    footer {
+        display: none;
+    }
+
     .botoes {
         flex-direction: row;
         align-items: flex-end;
